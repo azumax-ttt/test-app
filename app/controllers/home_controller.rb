@@ -1,5 +1,5 @@
 class HomeController < ActionController::Base
   def index
-    @article = Article.first
+    @articles = Article.all
   end
 end
